@@ -6,7 +6,7 @@ void Main()
 	const int w = 1920 * 0.5;
 	const int h = 1080 * 0.5;
 	const double pov = 0.01;
-	Ray cameraRay = Ray(V(), V(0, 0, 1));
+	def::Ray cameraRay = Ray(V(), V(0, 0, 1));
 	/*std::vector<Sphere> spheres = {
 	Sphere( V(1e5 + 1, 40.8, 81.6),1e5, Color(),      Color(0.75, 0.25, 0.25)), // 左
 	Sphere( V(-1e5 + 99, 40.8, 81.6),1e5,Color(),      Color(0.25, 0.25, 0.75)), // 右
